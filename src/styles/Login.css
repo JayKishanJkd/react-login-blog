@@ -1,0 +1,114 @@
+/* CSS for Signup Component */
+.container{
+    margin: 0%;
+    background-color: rgb(107, 22, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+  .main{
+    width: 30%;
+    height: 90%;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px #bbb1b1, -5px -5px 5px #bbb1b1;
+  }
+  .img{
+    width: 100%; /* Set the width */
+    height: 15%; /* Set the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    justify-items: auto;
+      
+  }
+  img{
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    max-height: 100%;
+  }
+  .main-2{
+    width: 100%;
+    margin-top: 15%;
+    height: 66%;
+    align-self: center;
+
+  }
+  .submit{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    
+    margin-top: 5%;
+    text-align: center;
+    
+  }
+  
+  .submit button{
+    background-color: rgb(202, 14, 14);
+    border: black solid 1px;
+    width: 30%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+  }
+  .username{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: aliceblue;
+    margin-top: 20px;
+    
+    
+
+  }
+  
+  .username label{
+    width: 30%;
+    font-size: 20px;
+    text-align: end;
+    
+    height: 30px;
+    
+
+  }
+  .username input{
+    width: 60%;
+    margin-left: 5%;
+    
+    /* Set the width to 250 pixels */
+  height: 24px; /* Set the height to 40 pixels */
+
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+    .main {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+    .img {
+        height: 10%; /* Reduce height for smaller screens */
+    }
+    .main-2 {
+        margin-top: 10%; /* Adjust margin for smaller screens */
+    }
+    .username1 {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+    .username1 button {
+        width: 40%; /* Adjust button width for smaller screens */
+        font-size: 16px;
+    }
+    .username label {
+        font-size: 16px; /* Reduce font size for labels on smaller screens */
+    }
+    .username input {
+        width: 70%; /* Adjust input width for smaller screens */
+        height: 20px; /* Reduce input height for smaller screens */
+    }
+}
